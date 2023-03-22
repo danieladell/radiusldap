@@ -1,0 +1,301 @@
+#Crear UOs
+dn: ou=marenostrum,dc=res-es,dc=ciber
+objectClass: organizationalUnit
+ou: marenostrum
+
+dn: ou=grupos,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: organizationalUnit
+ou: grupos
+
+#Create LDAP Users
+dn: uid=rgallegoc,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Rodrigo Gallego - Logística
+sn: rgallegoc
+displayName: Rodrigo Gallego - Logística
+givenName: Logística
+mail: rgallegoc@marenostrum.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=jaguilara,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Johann Aguilar - Logística
+sn: jaguilara
+displayName: Johann Aguilar - Logística
+givenName: Logística
+mail: jaguilara@marenostrum.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=psanchoc,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Pepe Sancho - Logística
+sn: psanchoc
+displayName: Pepe Sancho - Logística
+givenName: Logística
+mail: psanchoc@marenostrum.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=szambujoc,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Sara Zambujo - Logística
+sn: szambujoc
+displayName: Sara Zambujo - Logística
+givenName: Logística
+mail: szambujoc@marenostrum.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=iruizm,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Isabel Ruiz - Logística
+sn: iruizm
+displayName: Isabel Ruiz - Logística
+givenName: Logística
+mail: iruizm@marenostrum.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=bpujolg,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Basilio Pujol - Sistemas
+sn: bpujolg
+displayName: Basilio Pujol - Sistemas
+givenName: Sistemas
+mail: rgallegoc@marenostrum.res-es.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=mjuanv,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Miriam Juan - Sistemas
+sn: majuanv
+displayName: Miriam Juan - Sistemas
+givenName: Sistemas
+mail: mjuanv@marenostrum.res-es.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=ichavesv,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Ignacio Chaves - Sistemas
+sn: ichavesv
+displayName: Ignacio Chaves - Sistemas
+givenName: Sistemas
+mail: ichavesv@marenostrum.res-es.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=lalbaa,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Laura Alba - Sistemas
+sn: lalbaa
+displayName: Laura Alba - Sistemas
+givenName: Sistemas
+mail: lalbaa@marenostrum.res-es.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=jcarvalhop,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Jorge Carvalho - Sistemas
+sn: jcarvalhop
+displayName: Jorge Carvalho - Sistemas
+givenName: Sistemas
+mail: jcarvalhop@marenostrum.res-es.ciber
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Antonio,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Antonio Alabau
+sn: antonio
+displayName: Antonio Alabau
+givenName: Antonio
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Claudio,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Claudio Gomis
+sn: Claudio
+displayName: Claudio Gomis
+givenName: Claudio
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Susana,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Susana Valencia
+sn: Susana
+displayName: Susana Valencia
+givenName: Susana
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Pedro,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Pedro Chaves
+sn: Pedro
+displayName: Pedro Chaves
+givenName: Pedro
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Piedad,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Piedad Alba
+sn: Piedad
+displayName: Piedad Alba
+givenName: Piedad
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Manu,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Manu Tom
+sn: Manu
+displayName: Manu Tom
+givenName: Manu
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Torpe,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Torpe Morta
+sn: Torpe
+displayName: Torpe Morta
+givenName: Torpe
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Ana,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Ana Rue
+sn: Ana
+displayName: Ana Rue
+givenName: Ana
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Luis,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Luis depinvestigacion
+sn: Luis
+displayName: Luis depinvestigacion
+givenName: Luis
+mail: Luis@marenostrum.res-es.com
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Manuel,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Manuel
+sn: Manuel
+displayName: Manuel depinvestigacion
+givenName: Manuel
+mail: Manuel@marenostrum.res-es.com
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Javier,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Javier
+sn: Javier
+displayName: Javier depinvestigacion
+givenName: Javier
+mail: Javier@marenostrum.res-es.com
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Eva,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Eva
+sn: Eva
+displayName: Eva depinvestigacion
+givenName: Eva     
+mail: Eva@marenostrum.res-es.com
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+dn: uid=Rodrigo,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Rodrigo
+sn: Rodrigo
+displayName: Rodrigo depinvestigacion
+givenName: Rodrigo
+mail: Rodrigo@ciber.local
+userPassword: {SSHA}NvtnZjQkiZ/SwJcin6e2I4YIwCylnWGB
+
+#Grupos
+#Dani
+dn: cn=GGLogistica,ou=grupos,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: groupOfNames
+objectClass: top
+cn: GGLogistica
+member: uid=iruizm,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=szambujoc,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=psanchoc,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=jaguilara,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=rgallecoc,ou=marenostrum,dc=res-es,dc=ciber
+
+#Ricardo
+dn: cn=GGSistemas,ou=grupos,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: groupOfNames
+objectClass: top
+cn: GGSistemas
+member: uid=bpujolg,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=mjuanv,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=ichavesv,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=lalbaa,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=jcarvalhop,ou=marenostrum,dc=res-es,dc=ciber
+
+#Ivan
+dn: cn=GGConsejoDireccion,ou=grupos,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: groupOfNames
+objectClass: top
+cn: GGConsejoDireccion
+member: uid=Antonio,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Claudio,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Susana,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Manu,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Torpe,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Ana,ou=marenostrum,dc=res-es,dc=ciber
+
+#Alejandro
+dn: cn=GGInvestigacion,ou=grupos,ou=marenostrum,dc=res-es,dc=ciber
+objectClass: groupOfNames
+objectClass: top
+cn: GGInvestigacion
+member: uid=Luis,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Pedro,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Manuel,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Javier,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Eva,ou=marenostrum,dc=res-es,dc=ciber
+member: uid=Rodrigo,ou=marenostrum,dc=res-es,dc=ciber
